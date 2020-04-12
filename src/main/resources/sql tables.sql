@@ -1,0 +1,13 @@
+CREATE TABLE IF NOT EXISTS Eleicao(
+    id_eleicao INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(40) NOT NULL,
+    data_inicio DATE NOT NULL,
+    data_fim DATE NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+)  ENGINE=INNODB;
+
+
+
+
+
+
